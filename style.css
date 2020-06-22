@@ -416,8 +416,11 @@ footer h2 {
 .footer-content .second .content {
     padding-top: 30px;
     line-height: 30px;
+    text-decoration: none;
 }
-
+.footer-content .second .content .phone {
+    text-decoration: none;
+}
 /* THIRD BOX */
 
 .footer-content .third .content ul {
@@ -552,6 +555,7 @@ footer h2 {
 .copyright {
     color: rgb(95,95,95);
     opacity: .50;
+    font-size: .7rem;
 }
 
 @media screen and (max-width:1680px) {
@@ -978,6 +982,9 @@ footer h2 {
     }
     .contact-input {
         width: 230px;
+    }
+    .copyright {
+        font-size: .6rem;
     }
 }    
 
